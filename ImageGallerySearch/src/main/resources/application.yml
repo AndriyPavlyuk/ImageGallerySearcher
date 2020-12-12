@@ -1,0 +1,18 @@
+server:
+  port: 8090
+
+auth:
+  url: http://interview.agileengine.com:80/auth
+  apiKey: 23567b218376f79d9415
+
+sync:
+  time: 2400000000
+  url: http://interview.agileengine.com:80/images
+
+spring:
+  datasource:
+    platform: org.hibernate.dialect.H2Dialect
+    url: jdbc:h2:mem:testdb
+    username: sa
+    password: password
+    driverClassName: org.h2.Driver
